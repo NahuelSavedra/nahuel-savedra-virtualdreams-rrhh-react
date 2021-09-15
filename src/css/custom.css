@@ -1,0 +1,23 @@
+:root {
+    --header-color: #0062FF;
+    --blanco: #FFFFFF;
+    --color-btn-txt: #212121;
+    --rojo: #FF0000;
+}
+/* NAVBAR */
+.navbar-nav {
+    width: 100%;
+    justify-content: space-around;
+}
+
+.navbar {
+    background-color: #0062ff;
+    padding-top: 1.2rem!important;
+    padding-bottom: 1.2rem!important;
+}
+
+.navbar a {
+    color: var(--blanco)!important;
+    text-decoration: none;
+}
+/* FORM */
