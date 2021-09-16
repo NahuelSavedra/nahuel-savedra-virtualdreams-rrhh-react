@@ -3,6 +3,10 @@
     --blanco: #FFFFFF;
     --color-btn-txt: #212121;
     --rojo: #FF0000;
+    --fuente:"Noto Sans JP", sans-serif;
+}
+body {
+    font-family: var(--fuente)!important;
 }
 /* NAVBAR */
 .navbar-nav {
@@ -21,3 +25,34 @@
     text-decoration: none;
 }
 /* FORM */
+.contenedor-formulario{
+    display: flex;
+    justify-content: center;
+    margin-top: 1.4rem;
+}
+
+.formulario{
+    width: 70%;
+    padding: 2.5rem 6rem ;
+    border: 1px solid rgb(148, 146, 146);
+    border-radius: 15px;
+    margin: 2% 0;
+}
+.formulario p{
+    line-height: 2rem;
+    font-size: 1rem;
+
+}
+
+.formulario h1, p {
+  color: var(--color-btn-txt);
+}
+.mensaje-error{
+    color: var(--rojo);
+}
+.btn-enviar{
+    background-color: var(--color-btn-txt) !important;
+    border: 5px solid var(--color-btn-txt) !important;
+    border-radius: 10px!important;
+    width: 80%;
+}
