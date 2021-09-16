@@ -56,3 +56,12 @@ body {
     border-radius: 10px!important;
     width: 80%;
 }
+/* FOOTER */
+  
+footer {
+    display: flex;
+    justify-content: space-around;
+    border-top: 1px solid grey;
+    padding: 1.5rem 2rem .5rem;
+    margin-top: 1rem;
+}
