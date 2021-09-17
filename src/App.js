@@ -1,17 +1,23 @@
 import React from 'react'
-import {BrowserRouter as Router} from "react-router-dom"
-import { Header } from './components/Header.jsx'
-import { Formulario } from './components/Formulario'
-import { Footer } from './components/Footer'
+import {BrowserRouter as Router, Switch, Route} from "react-router-dom"
+import { Contacto } from './components/pages/Contacto.jsx'
+import { Home } from './components/pages/Home.jsx'
+
 
 function App() {
   return (
     <>
       <Router>
-        <Header/>
+        <Switch>
+        <Route exact path="/">
+            <Home/>
+          </Route>
+          <Route path="/contacto">
+            <Contacto/>
+          </Route>
+      </Switch>
       </Router>
-      <Formulario/>
-      <Footer/>
+
     </>
   );
 }
