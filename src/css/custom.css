@@ -61,9 +61,11 @@ body {
 footer {
     display: flex;
     justify-content: space-around;
-    border-top: 1px solid grey;
+    background-color: black;
     padding: 1.5rem 2rem .5rem;
-    margin-top: 1rem;
+}
+footer p {
+    color:white;
 }
 /* HERO */
 .hero{
@@ -73,4 +75,35 @@ footer {
 }
 .hero p, h1 {
     color:white;
+}
+
+/* SECTION */
+section{
+    background-color: black;
+    padding: 5rem;
+}
+.card{
+    background-color: transparent!important;
+}
+.card-title{
+    margin: 1rem auto!important;
+    width: 100px;
+    height: 100px;
+    -moz-border-radius: 50%;
+    -webkit-border-radius: 50%;
+    border-radius: 50%;
+    background-color: #6163ff;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.card-title i {
+    font-size: 3.5rem;
+}
+.card-subtitle{
+    margin: 1rem!important;
+}
+.card-text{
+    color: white;
+    margin: 1rem;
 }
